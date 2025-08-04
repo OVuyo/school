@@ -1,0 +1,334 @@
+---
+title: "Econometrics III R practicals: Module 1"
+format: html
+editor: visual
+---
+
+# Overview
+
+In this module we will introduce:
+
+-   Some basics of working with R
+-   Core functions for **data transformation** (creating new variables and selecting observations)
+-   Generating **summary statistics** (mean, median, etc.)
+-   Basic data **visualisation**
+-   Linear **regression modelling**
+
+You will learn how to:
+
+-   Install packages (`install.packages`)
+-   Load packages (`library`)
+-   View data (`View`)
+-   Get a summary of variables in a data set (`summary`)
+-   Create a scatter plot and visualise a regression line (`ggplot`)
+-   Run a linear regression (`lm`)
+-   Interpret coefficients from a linear regression
+-   Filter data to select observations (`filter`)
+-   Create new variables (`mutate`)
+-   Calculate summary statistics (`summarise`)
+-   Calculate summary statistics by levels of another variable (`group_by`, `summarise`)
+
+# Install packages
+
+A package is a collection of functions that extend the capabilities of base R. The 'tidyverse' is a collection of several useful packages for data manipulation, cleaning, creating graphs, etc. We will use the tidyverse heavily in this course.
+
+Before using a package for the first time, you need to install it. You only need to do this once (unless you change to a different computer).
+
+```{r}
+install.packages("tidyverse")
+```
+
+The name of the package must be in quotation marks.
+
+# Load packages
+
+Every time you start a new R session, you need to load the packages you want to use:
+
+```{r}
+library(tidyverse)
+```
+
+The name of the package does not need to be in quotation marks when loading it.
+
+## Exercise: Install and load the gapminder package
+
+In this session we will work with the 'gapminder' dataset, which contains information about life expectancy, GDP per capita, and population for various countries over time.
+
+The gapminder data is available in the `gapminder` package.
+
+**Correct** the error in the following code to install the `gapminder` package:
+
+```{r}
+install.packages(gapminder)
+```
+
+**Fill in the blank**, specifying the correct function to load the `gapminder` package:
+
+```{r}
+___(gapminder)
+```
+
+# View the data
+
+Before proceeding, it is a good idea to have a look at the data. You can open a spreadsheet view of the data with `View`:
+
+```{r}
+View(gapminder)
+```
+
+# Get a summary of variables in a data set
+
+```{r}
+summary(gapminder)
+```
+
+The output will depend on what type of variable it is (more on this later). There are two main types of variable: categorical and numeric. Categorical variables have a limited number of distinct categories or groups (usually text), while numeric variables are numbers.
+
+## Exercise
+
+-   Give examples of categorical and numeric variables in the gapminder data set.
+
+For a categorical variable, `summary` will show the number of observations for each category. For a continuous variable, it will show the minimum, maximum, mean, median, and first and third quartiles.
+
+To get a summary of specific variable, you can specify a specific variable with the name of the data set, followed by a `$` and the name of the variable:
+
+```{r}
+summary(gapminder$gdpPercap)
+```
+
+## Exercise
+
+-   **Fill in the blank** in the code below to get a summary of the year variable:
+
+```{r}
+summary(gapminder$___)
+```
+
+-   What is the first year in this data set? What is the last year?
+
+# Scatter plots and regression lines
+
+A scatter plot is a great way to visualise the relationship between two numeric variables. We can use the `ggplot2` package, which is part of the `tidyverse`, to create scatter plots:
+
+```{r}
+ggplot(gapminder, aes(x = log(gdpPercap), y = lifeExp)) +
+  geom_point() 
+```
+
+Would you say there is a relationship between log GDP per capita and life expectancy?
+
+We can add a linear regression line to our scatter plot by adding `geom_smooth(method = "lm")`:
+
+```{r}
+ggplot(gapminder, aes(x = log(gdpPercap), y = lifeExp)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+### Exercise
+
+-   Copy the above code and **edit** it to create the same graph, but with gdpPercap instead of the log of gdpPercap:
+
+```{r}
+
+```
+
+-   Would you say that the regression line fits the data well?
+
+### Exercise
+
+-   **Correct** the code below to draw a scatter plot with a regression line showing the relationship between the log of population size (pop) and the log of GDP per capita. Hint: note that R is case-sensitive! To see the names of the variables in the data set, look at the output of `summary(gapminder)` or use `View(gapminder)`.
+
+```{r}
+ggplot(gapminder, aes(x = log(Pop), y = log(gdppercap))) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+-   Would you say that there is a relationship between the log of population size and the log of GDP per capita?
+
+# Linear regression
+
+We created a visual representation of a regression line in the graphs above, but let's now estimate a linear regression model so that we can see the coefficients.
+
+We will use the `lm` function (**l**inear **m**odel). We specify the formula with `lifeExp` as the dependent variable and `gdpPercap` as the independent variable, and tell R to use the `gapminder` data:
+
+```{r}
+lm(formula = lifeExp ~ gdpPercap, data = gapminder)
+```
+
+To make the regression output easier to read, you can set the following option to turn off scientific notation:
+
+```{r}
+options(scipen = 999)
+```
+
+## Interpreting coefficients
+
+**Intercept (**$\beta_0$)**:** The mean value of 𝑌 when 𝑋 is 0. When countries have a GDP per capita of 0, the mean life expectancy is 53.96 years.
+
+**Slope coefficient (gdpPercap,** $\beta_1$**):** The increase in the mean value of 𝑌 for a one-unit change in 𝑋. For a one-unit increase in GDP per capita, mean life expectancy increases by 0.00076 years.
+
+### Exercise
+
+-   Copy the code for the regression above, and **edit** it to run a linear regression with life expectancy as the dependent variable and population size as the independent variable:
+
+```{r}
+
+```
+
+-   How would you interpret the coefficients?
+
+# Filtering data (filter)
+
+Often we will want to select observations that meet specified criteria. Let's select only the observations for the year 2007:
+
+```{r}
+gapminder |> 
+  filter(year == 2007)
+```
+
+This will print a new data frame to the console that contains only the observations for the year 2007. To save this new data set so we can use it later, we can assign it to a new object:
+
+```{r}
+gapminder_2007 <- gapminder |> 
+  filter(year == 2007) 
+```
+
+The arrow `<-` is used to assign objects. You can type it out, or use the shortcut Alt + - (Windows) or Option + - (Mac).
+
+To print the new data frame to the console, type the name you have given it:
+
+```{r}
+gapminder_2007
+```
+
+When filtering categorical variables with text categories, we need to use quotation marks:
+
+```{r}
+europe <- gapminder |>
+  filter(continent == "Europe")
+```
+
+It's important to remember here that R is case-sensitive, and the category must be spelled EXACTLY as it appears in the data. Otherwise, we will end up with an empty data frame (i.e. a data frame with no observations)!
+
+## Exercise
+
+-   **Correct** the following code to filter the data to only include observations from Africa:
+
+```{r}
+africa <- gapminder |>
+  filter(continent == africa)
+
+# View result in Console:
+africa
+```
+
+-   **Complete** the following code to filter the data to only include observations from South Africa:
+
+```{r}
+south_africa <- gapminder |>
+  ___(___ == "South Africa")
+
+# View result in Console:
+south_africa
+```
+
+# The pipe (\|\> or %\>%)
+
+The pipe operator (`|>`) used above passes whatever is on the left-hand side forward to the function on the right-hand side. This allows us to chain together multiple operations step-by-step, which helps to make your code more readable. You will see more examples of how this works later.
+
+The pipe was originally introduced in the `tidyverse` and written as `%>%`, but is now also part of base R (i.e. available without loading any packages) as `|>`. We will use the newer base R `|>` pipe in this course, but you will see that many of the DataCamp lessons and other resources still use the `tidyverse` pipe `%>%`. They do the same thing, so you can use either one.
+
+# Creating new variables (mutate)
+
+When creating graphs above, we used the `log` function to log transform variables 'on the fly'. Often we will use a variable like log GDP per capita repeatedly. In this case we may want to create a new variable that we can use later. We can do this using the `mutate` function from the `tidyverse`. Let's create a new variable `log_gdpPercap` that is equal to the log of GDP per capita:
+
+```{r}
+gapminder <- gapminder |>
+  mutate(log_gdpPercap = log(gdpPercap))
+```
+
+Here we update our original data object by assigning the updated object with the new variable back to `gapminder`. If we did not assign it, R would simply print the new data frame to the console without saving it for later use.
+
+You can use mathematical operators to create variables:
+
+|     |          |
+|-----|----------|
+| \+  | Add      |
+| \-  | Subtract |
+| \*  | Multiply |
+| /   | Divide   |
+| \^  | Power    |
+
+For example, to create population in millions:
+
+```{r}
+gapminder <- gapminder |>
+  mutate(pop_millions = pop / 1000000)
+```
+
+## Exercise
+
+Copy the code chunk above and **edit** it to create a new variable that is equal to the log of population size:
+
+```{r}
+
+```
+
+# Calculate summary statistics (`summarise`)
+
+We can calculate summary statistics for a variable using the `summarise` function from the `tidyverse`. For example, to calculate the mean life expectancy:
+
+```{r}
+gapminder |>
+  summarise(mean(lifeExp))
+```
+
+We can give our summary statistic a name:
+
+```{r}
+gapminder |>
+  summarise(Mean = mean(lifeExp))
+```
+
+We can specify multiple summary statistics at once:
+
+```{r}
+gapminder |>
+  summarise(
+    Mean = mean(lifeExp),
+    Median = median(lifeExp),
+    SD = sd(lifeExp),
+    Min = min(lifeExp),
+    Max = max(lifeExp)
+  )
+```
+
+## Exercise
+
+Copy and **edit** the code above to calculate the mean, median, standard deviation, minimum and maximum of GDP per capita:
+
+```{r}
+
+```
+
+# Grouped summary statistics (`group_by`, `summarise`)
+
+We can create summary statistics by group using the `group_by` function. For example, to calculate the mean life expectancy by continent:
+
+```{r}
+gapminder |>
+  group_by(continent) |>
+  summarise(Mean = mean(lifeExp))
+```
+
+## Exercise
+
+**Fill in the blanks** to calculate the mean GDP per capita by country:
+
+```{r}
+gapminder |>
+  group_by(___) |>
+  summarise(Mean = mean(___))
+```
