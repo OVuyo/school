@@ -1,0 +1,83 @@
+---
+title: "Economic Analysis Report"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+```
+
+# Introduction
+
+This is a template for economic analysis reports using R Markdown in VS Code.
+
+## Data Loading
+
+```{r data-loading}
+# Load your economic data here
+economics_data <- data.frame(
+  year = 2020:2024,
+  gdp = c(21.43, 22.99, 25.46, 26.85, 28.12),
+  inflation = c(1.2, 4.7, 8.0, 4.1, 3.2),
+  unemployment = c(8.1, 5.4, 3.7, 3.5, 3.8)
+)
+
+kable(economics_data, caption = "Economic Indicators Dataset")
+```
+
+## Data Visualization
+
+```{r visualization}
+# Create economic plots
+gdp_inflation_plot <- ggplot(economics_data, aes(x = year)) +
+  geom_line(aes(y = gdp * 10, color = "GDP (x10)"), size = 1.2) +
+  geom_line(aes(y = inflation, color = "Inflation"), size = 1.2) +
+  scale_y_continuous(
+    name = "Inflation Rate (%)",
+    sec.axis = sec_axis(~./10, name = "GDP (Trillions USD)")
+  ) +
+  labs(
+    title = "GDP and Inflation Trends",
+    x = "Year",
+    color = "Indicator"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+print(gdp_inflation_plot)
+```
+
+## Statistical Analysis
+
+```{r statistics}
+# Correlation analysis
+correlations <- cor(economics_data[, c("gdp", "inflation", "unemployment")])
+kable(correlations, caption = "Correlation Matrix", digits = 3)
+
+# Summary statistics
+summary_stats <- economics_data %>%
+  summarise(
+    across(c(gdp, inflation, unemployment), 
+           list(mean = mean, sd = sd, min = min, max = max))
+  )
+
+kable(summary_stats, caption = "Summary Statistics", digits = 2)
+```
+
+## Conclusion
+
+Add your economic analysis conclusions here.
+
+## References
+
+- Economic data sources
+- Literature references

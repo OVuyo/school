@@ -1,0 +1,30 @@
+{
+    "r.rpath.linux": "/usr/bin/R",
+    "r.rterm.linux": "/usr/bin/R",
+    "r.sessionWatcher": true,
+    "r.rtermSendDelay": 8,
+    "r.bracketedPaste": true,
+    "r.plot.useHttpgd": true,
+    "r.lsp.enabled": true,
+    "r.helpPanel.enableSyntaxHighlighting": true,
+    "r.enableCodeCompletion": true,
+    "r.workspaceViewer.removeHiddenItems": true,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
+    "editor.rulers": [80],
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Default Light+",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "files.associations": {
+        "*.R": "r",
+        "*.r": "r",
+        "*.Rmd": "rmd",
+        "*.rmd": "rmd"
+    },
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "workbench.editorAssociations": {
+        "*.csv": "default"
+    }
+}
