@@ -1,0 +1,8 @@
+
+
+1. y_t = log of household disposable incomee
+2. i_t = nominal interest rate
+3. π^{e}_t = expected inflation
+4. (i_t − π^{e}_t) = real interest rate
+5. ϵ_t = error term
+6. c_t = log of household real consumption
