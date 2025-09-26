@@ -1,0 +1,283 @@
+
+Instruction
+notes:
+
+week1:
+
+week2:The nature and evolution of development economics: theories of development
+Overview
+
+We know that development is possible, but not inevitable. We have had a wealth of experiments. There are clearly no sure-fire formulas for success; if there were, there would be more successes. Some strategies seem to work for a while and then stall; some strategies seem to work in some countries and not in others. Economic theory has evolved to account for the successes and failures. The two lectures explore these changes in economic theory—both in the kinds of models used and in the factors that are identified as playing key roles. It focuses on two pivotal questions: What forces can explain the divergence in incomes across countries? What implications can we draw for the nature of the interventions most likely to promote development?
+
+ 
+
+Required readin
+
+Alacevich Michele (2011) Early Development Economics Debates Revisited:Journal of the History of Economic Thought, Volume 33, Number 2, June 2011. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/972074030487114D1D754A3483490AED/S1053837211000113a.pdf/het_volume_33_issue_2_cover_and_front_matter.pdfLinks to an external site.Open this document with ReadSpeaker docReader
+Hoff, Karla and Stiglitz E. Joseph, Modern Economic Theory and Development. https://pdfs.semanticscholar.org/429b/9ea062c1828b068180fe756beee3391dc5b3.pdfLinks to an external site.
+
+week3:lobalisation, Trade and Industrial Policy
+Overview
+
+The topic will focus on issues at the intersection of globalization, trade and industrial policy in South Africa. Overall, the section will provide a political economy analysis of these issues using both theoretical as well as empirical understanding of topics relating to the changing landscape and character of the global economic system in general and particularly in relation to the Global South, international financial flows and investment liberalization, international trade and trade policy, industrial policy and industrialization in the South African context. The first lecture will aim to provide a critical overview of main strands in trade theory applied to developing countries, e.g. comparative advantage models /new trade theories/classical and neoclassical trade theories and the policy implications. In the second lecture a conceptual and empirical understanding of the international institutions of trade and financial markets for development will be discussed. This is supplemented by providing insights into the structural trends, export-import structures, determinants and impact of international trade and investments in South Africa. The linkages and complex relationship between trade, growth and development as well as the various economic debates relating to globalization will be discussed, with a particular emphasis on the South African industrial sector. 
+
+ 
+
+Readings
+
+Compulsory
+
+Shaikh. A. 2003. Globalization and the myth of free trade, Paper prepared for the conference on Globalization and the myth of free trade, New York: New School University
+
+ 
+
+Recommended
+
+Peres, W. and Primi, A. 2008. Theory and Practice of Industrial Policy. Evidence from the Latin American Experience, paper prepared for APORDE 2008.
+
+Vickers, B. 2014. Towards a trade policy for development: the political economy of South Africa’s external trade, 1994-2014. Strategic Review for Southern Africa 36, 57-79. 
+
+Slides:
+
+South African Development Issues Lecture 1 - August 2025.pdfOpen this document with ReadSpeaker docReader
+
+week4:Globalisation, Trade and Industrial Policy
+Readings
+
+ 
+
+Compulsory
+
+Zalk, N. 2014. Industrial policy in a harsh climate: The case of South Africa. In: Salazar-Xirinachs, J, Nubler, I, Kozul-Wright, R (eds) Transforming Economies: Making Industrial Policy Work for Growth, Jobs and Development, Geneva: UNCTAD and ILO
+
+ https://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_315677.pdfLinks to an external site.Open this document with ReadSpeaker docReader
+
+ 
+
+Recommended
+
+Andreoni, A. and Tregenna, F., 2018. Stuck in the Middle: Premature Deindustrialisation and Industrial Policy. Working Paper 11, Centre for Competition, Regulation and Economic Development
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269739Links to an external site.
+
+Slides
+
+South African Development Issues Lecture 2 - August 2025.pdfOpen this document with ReadSpeaker docReader Download South African Development Issues Lecture 2 - August 2025.pdfOpen this document with ReadSpeaker docReader
+
+Edwards, L. and Lawrence, R., 2006. South African trade policy matters: Trade performance and trade policy. NBER working paper no. 12760, Cambridge, MA: National Bureau of Economic Research.
+
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.145.5896&rep=rep1&type=pdfLinks to an external site.
+
+week5:The Political Economy of South Africa
+Overview
+
+These lectures help to explain contemporary South African economic phenomena by understanding the structure and functioning of the South African economy. We begin with an overview of South African economic development. From there we explore two critical debates: what was the relationship between race, class, apartheid and capitalist development in South Africa; and how should we best make sense of the structure of the South African economy. In each case we begin with present day realities and then show how understanding these political economy factors is invaluable to making sense of those realities. The classes will conclude with a group discussion.
+
+Readings
+
+ 
+
+Compulsory
+
+Fine, B., Rustomjee, Z., 1996. “The Boundaries of the MEC”, in: The Political Economy of South Africa: From Minerals-energy Complex to Industrialisation. Hurst.
+
+ 
+
+Recommended
+
+For an expansion on the MEC:
+
+Fine, B., 2009. Engaging the MEC: or a few of my views on a few things. Transformation 26–49.
+
+OR
+
+Ashman, S., Fine, B., Newman, S., 2013. Systems of Accumulation and the Evolving MEC, in: Fine, B., Saraswati, J., Tavasci, D. (Eds.), Beyond the Developmental State: Industrial Policy into the 21st Century. Pluto Press.
+
+OR
+
+Newman, S., Baloyi, B., Ncube, P., 2010. A New Growth Path for South African Industrialisation: An input-output analysis (Working Paper). Corporate Strategic Industrial Development, University of the Witwatersrand.
+
+ 
+
+For an overview of differing views:
+
+Freund, B., 2009. The significance of the minerals-energy complex in the light of South African economic historiography. Transformation 3–25.
+
+ 
+
+OR
+
+ 
+
+Fine, B., Rustomjee, Z., 1996. “Debating Industrialisation and Industrial Policy”, in: The Political Economy of South Africa: From Minerals-energy Complex to Industrialisation. Hurst.
+
+ 
+
+A debate:
+
+Bell, T., Farrell, G., 1997. The minerals-energy complex and South African industrialisation. Development Southern Africa 14, 591–613.
+
+ 
+
+Fine, B., Rustomjee, Z., 1998. Debate 1: Debating the South African minerals-energy complex: A response to Bell and Farrell. Development Southern Africa 15, 689–701.
+
+ 
+
+Bell, T., 1998. Debate 2: The minerals-energy complex and South African industrialisation: A rejoinder. Development Southern Africa 15, 703–714.
+
+ 
+
+ 
+
+
+week6&7:The Political Economy of South Africa
+Overview
+
+Readings
+
+ 
+
+Compulsory
+
+Fine, B., Rustomjee, Z., 1996. “The Boundaries of the MEC”, in: The Political Economy of South Africa: From Minerals-energy Complex to Industrialisation. Hurst.
+
+ 
+
+Recommended
+
+For an expansion on the MEC:
+
+Fine, B., 2009. Engaging the MEC: or a few of my views on a few things. Transformation 26–49.
+
+OR
+
+Ashman, S., Fine, B., Newman, S., 2013. Systems of Accumulation and the Evolving MEC, in: Fine, B., Saraswati, J., Tavasci, D. (Eds.), Beyond the Developmental State: Industrial Policy into the 21st Century. Pluto Press.
+
+OR
+
+Newman, S., Baloyi, B., Ncube, P., 2010. A New Growth Path for South African Industrialisation: An input-output analysis (Working Paper). Corporate Strategic Industrial Development, University of the Witwatersrand.
+
+ 
+
+For an overview of differing views:
+
+Freund, B., 2009. The significance of the minerals-energy complex in the light of South African economic historiography. Transformation 3–25.
+
+ 
+
+OR
+
+ 
+
+Fine, B., Rustomjee, Z., 1996. “Debating Industrialisation and Industrial Policy”, in: The Political Economy of South Africa: From Minerals-energy Complex to Industrialisation. Hurst.
+
+ 
+
+A debate:
+
+Bell, T., Farrell, G., 1997. The minerals-energy complex and South African industrialisation. Development Southern Africa 14, 591–613.
+
+ 
+
+Fine, B., Rustomjee, Z., 1998. Debate 1: Debating the South African minerals-energy complex: A response to Bell and Farrell. Development Southern Africa 15, 689–701.
+
+ 
+
+Bell, T., 1998. Debate 2: The minerals-energy complex and South African industrialisation: A rejoinder. Development Southern Africa 15, 
+week8:overty and Inequality of South Africa
+Overview
+
+South Africa is something of a paradox; On the one hand, it is one of the most unequal countries in the world, if not the most unequal. Half of all South Africans continue to live in poverty, and there is little to indicate that the poorest will see a reversal in their misfortunes in the coming years. Economic growth has stagnated, and inflation remains high relative to the developed world, while the unemployment rate continues to climb towards 30 percent. On the other hand, it has one of the most progressive constitutions in the world with a Bill of Rights that foregrounds expanded social and economic rights. It retains a robust and critical media, a vibrant civil society and an active and independent judiciary. It is a country that sits at the nexus of several competing, and possibly incompatible, forces: it is a small, open economy participating fully in international trade and finance; and its socio-economic situation requires radical policy action. In this session we examine the trajectory of poverty and inequality in post-Apartheid South Africa and ask why the country has been unable to meaningfully address either of these problems in spite of numerous policies designed to reduce poverty and inequality.
+
+ 
+
+Readings
+
+ 
+
+Compulsory
+
+Francis, D., and Webster, E. 2019. Poverty and Inequality in South Africa: critical reflections. Development Southern Africa, vol. 36 (6) 788-802.
+
+https://www.tandfonline.com/doi/abs/10.1080/0376835X.2019.1666703Links to an external site.
+
+ 
+
+Recommended
+
+Finn, A., Leibbrandt, M. (2017). The dynamics of poverty in South Africa. Version 3. Cape Town: SALDRU, UCT. (SALDRU Working Paper Number 174/ NIDS Discussion Paper 2016/1).
+
+http://opensaldru.uct.ac.za/bitstream/handle/11090/824/2017_174_Saldruwp-V3.pdf?sequence=3Links to an external site.
+
+ 
+
+World Bank. ‘Overcoming Poverty and Inequality in South Africa: An Assessment of Drivers, Constraints and Opportunities’. Washington: International Bank for Reconstruction and Development/The World Bank, March 2018. 
+
+https://openknowledge.worldbank.org/bitstream/handle/10986/29614/124521-REV-OUO-South-Africa-Poverty-and-Inequality-Assessment-Report-2018-FINAL-WEB.pdf?sequence=1&isAllowed=yLinks to an external site.
+week9:The Political Economy of Labour Markets: Informality and Precariousness
+Overview
+
+The idea of dualism in the South African economy, characterised by a ‘first’ and ‘second’ economy, has come to dominate government thinking in recent years, where the ‘first’ economy is formalised and organised, and is structurally disconnected from a ‘second’ economy characterised by informality and precariousness. But how useful are these distinctions in understanding the South African economy in the 21st century? In this session we explore the evolution of the informal economy in South Africa, how we understand and measure it, and what implications this has for policy.
+
+ 
+
+Readings
+
+ 
+
+Compulsory
+
+Valodia, I., and R. Devey. 2012. ‘The Informal Economy in South Africa: Debates, Issues and Policies’. Margin: The Journal of Applied Economic Research 6 (2): 133–57. https://doi.org/10.1177/097380101200600203Links to an external site..
+
+Recommended
+
+International Labour Organisation. ‘Women and Men in the Informal Economy: A Statistical Picture’. Geneva: International Labour Organisation, 2013. https://www.ilo.org/global/publications/books/WCMS_626831/lang--en/index.htmLinks to an external site..
+
+Rogan, M. 2018. ‘Informal economies are diverse: South African policies need to recognise this’. The Conversation 15 October 2018. https://theconversation.com/informal-economies-are-diverse-south-african-policies-need-to-recognise-this-104586Links to an external site.
+
+ 
+week10:he Political Economy of Labour Markets: Gender and Economics
+Overview
+
+Labour markets around the world, including in South Africa, have witnessed rising rates of female labour force participation in recent decades. However, persistent gender inequalities in the labour market remain. Women are typically less likely than men to find employment; when they find employment, this is more likely to be part-time work or in precarious, informal and low-paid work; and although gender gaps in education have narrowed or been eliminated, a persistent gender gap in earnings persists. In this section, we explore changes in the South African labour market from the perspective of gender; we consider the implications of enduring gender gaps in economic participation for the well-being of women and children; and we highlight how women’s involvement in the unpaid economy limits the nature of their participation in the paid economy.
+
+ 
+
+Readings
+
+ 
+
+Compulsory
+
+Casale, D., Posel, D. and Mosomi, J. (2021) Chapter 34. Gender and the economy in South Africa. In: Tregenna, F., Valodia, I. and Oqubay, A. (eds) The Oxford Handbook of the South African Economy. Oxford: Oxford University Press, pp.735 – 756. Casale&Posel&Mosomi 2021_Oxford chapter.pdfOpen this document with ReadSpeaker docReader Download Casale&Posel&Mosomi 2021_Oxford chapter.pdfOpen this document with ReadSpeaker docReader
+
+ 
+
+Recommended
+
+Posel, D. and Hall, K. (2021) Chapter 37. The economics of households in South Africa. In: Tregenna, F., Valodia, I. and Oqubay, A. (eds) The Oxford Handbook of the South African Economy. Oxford: Oxford University Press, pp. 800 - 822.Posel and Hall_2021.pdfOpen this document with ReadSpeaker docReader Download Posel and Hall_2021.pdfOpen this document with ReadSpeaker docReader
+
+ 
+week 11:fiscal policy seeks to balance three elements of macroeconomic policy: stabilisation, sustainability and redistribution of income. Choices about how to strike this balance are framed within external constraints (which are particularly salient in a small-open economy) and interact with a broader set of macroeconomic policies and political imperatives. Following the democratic transition in 1994, expectations of a post-liberation fiscal expansion in South Africa were proven wrong, as government acted to contain the deficit and stabilise national debt. Following a period of buoyant revenue and expanding budgets in the decade after 2000, the country once again faces a constrained fiscal position. Analysts remain sharply divided about the wisdom of government’s position and its consequences for growth, development and inequality. This reflects differing views on the nature of constraints that policymakers face, and the interests that policy serves. The lecture will briefly review fiscal theory and present evidence on the evolution of policy choices in South Africa over the last twenty-five years. It will seek to ask whether government has achieved an appropriate balance between stabilisation, sustainability and redistribution, and discuss the choices and constraints that government faces in the years ahead. 
+
+ 
+
+Readings
+
+ 
+
+Compulsory
+
+Sachs, Michael (2021) Fiscal Dimensions of South Africa’s Crisis. Public Economy Project Working Paper #1. Southern Centre for Inequality Studies
+
+Recommended
+
+Calitz, E and Siebrits, K. (2015). Fiscal Policy. Chapter 16 in Public Economics, Sixth Edition. Black, Calitz and Steenkamp (eds). Oxford University Press
+
+World Bank. (2014). Fiscal Policy and Redistribution in an Unequal Society. South Africa Economic Update 6.
+
+http://documents.worldbank.org/curated/en/933231468101334970/South-Africa-economic-update-fiscal-policy-and-redistribution-in-an-unequal-societyLinks to an external site.
+
+ 
+
+National Treasury. 2021. Chapter 3 Fiscal Policy in the 2021 Budget Review. http://www.treasury.gov.za/documents/National%20Budget/2021/review/FullBR.pdf
