@@ -1,0 +1,36 @@
+
+ 
+Consider the following consumption equation:  
+ 
+𝑐𝑡= 𝛼0 −𝛼1(𝑖𝑡−𝜋𝑡
+𝑒) + 𝛼2𝑦𝑡+ 𝜖𝑡, 
+ 
+where 𝑐𝑡 is the log form of household real consumption, 𝑦𝑡 is the log form of household 
+disposable income, and 𝑖𝑡 is the nominal short or long-term interest rate,  𝜋𝑡
+𝑒 is the 
+expected inflation.  
+ 
+Question 1: Use what you have learned in Chapter 15 of the Olivier-Blanchard-Macroeconomic textbook (OVuyo/school/Macroeconmics_data/Macroeconfull_pdfs.txt) and the existing literature to extend equation (1) to include possible missing 
+variables. 
+ 
+Question 2: Use what you have learned in macroeconomics and the existing literature to 
+explain the expected signs of the parameters of the extended equation in question (1). 
+
+ 
+Question 3: Choose a country of interest and collect quarterly data on the variables in 
+the extended equation for the period 1995Q1 to 2024Q4.(i picked usa)
+ 
+Question 4: Transform your data to match the variables in your equation. Estimate the 
+extended equation using the Ordinary Least Squares (OLS) method. 
+ 
+Question 5: Interpret the estimated parameters and compare their signs to the predicted 
+signs in question (2). Are the parameters estimated in line with the estimates in the 
+existing literature? 
+ 
+Question 6: Can your results be used to formulate policies in your chosen country?  
+ 
+References 
+ 
+
+ 
+ 
